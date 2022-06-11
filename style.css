@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+.menu {
+    display: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+}
+
+li {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+li:hover
+{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+main {
+    position: relative;
+    top: 180px;
+}
+
+.container-first {
+    background-image: url("./images/laranja\ azul\ recorte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    width: 70%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    color: #FFFF;
+}
+
+button {
+    height: 40px;
+    font-size: 35px;
+    background: none;
+    width: 32%;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.grade figure {
+    width: 23%;
+    
+   
+}
+
+.grade figure img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.grade figure:hover {
+    transform: scale(110%);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+footer {
+    width: 100%;
+    height: 65px;
+    background-color: lightgrey;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 200px;
+       
+}
+
+ .socialmedia {
+    display: flex;
+    
+    width: 70%;
+ }
+
+.copyright {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .copyright p {
+     width: 80%;
+    
+ }
+
+
